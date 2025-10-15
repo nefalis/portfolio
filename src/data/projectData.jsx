@@ -39,6 +39,14 @@ import Regulus3 from '../assets/regulus_3.png'
 import Port1 from '../assets/port1.png'
 import Port2 from '../assets/port2.png'
 import Portfolio from '../assets/portfolio.png'
+import Typing1 from '../assets/typing_1.png'
+import Typing2 from '../assets/typing_2.png'
+import Typing3 from '../assets/typing_3.png'
+import Typing4 from '../assets/typing_4.png'
+import Typing5 from '../assets/typing_5.png'
+import Typing6 from '../assets/typing_6.png'
+
+
 
 const projectData = [
     {
@@ -265,6 +273,19 @@ const projectData = [
         pictures: [Kasa1, Kasa2, Kasa3],
         github: 'https://github.com/nefalis/projet-7',
         link: 'https://projet-7-five.vercel.app/'
+    },
+    {
+        id: 16,
+        title: 'Typing',
+        category: 'Front-end',
+        description: 'Application crée pour aider un enfant à apprendre à écrire au clavier.',
+        descriptionDetail:`
+        Cette application éducative est née d'un besoin simple : aider un enfant à maîtriser la frappe au clavier. Elle s'est progressivement enrichie de nouvelles fonctionnalités pédagogiques incluant l'apprentissage des tables de multiplication, la pratique du copier-coller et la résolution d'opérations posées. Le développement se poursuit avec de nouvelles améliorations à venir. 
+        `,
+        stack: 'React - Tailwind - Supabase',
+        pictures: [Typing1, Typing2, Typing3, Typing4, Typing5, Typing6],
+        github: 'https://github.com/nefalis/typing_project',
+        link: 'https://typing-project-pi.vercel.app/'
     }
 ];
 
