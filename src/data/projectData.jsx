@@ -179,21 +179,19 @@ const projectData = [
         github: 'https://github.com/nefalis/LITReview_P9',
     },
     {
-        id: 16,
-        title: 'JustStreamIt',
+        id: 9,
+        title: 'Typing',
         category: 'Front-end',
-        description: 'Application web qui répertorie et classe les films',
-        descriptionDetail:`Création d'une application web afin d'aider une association a monter en croissance. 
-        
-        Objectifs :
-        - Interface utilisateur pour une application web qui répertorie et classe les films en fonction de leur note.
-        - L'interface est composé de 5 parties : Meilleur film - Les films les mieux notés - Catégorie 1 - Catégorie 2 - Catégorie libre avec un menu déroulant pour choisir une catégorie. 
-        - La page se connecte à une API afin de récupérer les différentes informations. 
+        description: 'Application crée pour aider un enfant à apprendre à écrire au clavier.',
+        descriptionDetail:`
+        Cette application éducative est née d'un besoin simple : aider un enfant à maîtriser la frappe au clavier. Elle s'est progressivement enrichie de nouvelles fonctionnalités pédagogiques incluant l'apprentissage des tables de multiplication, la pratique du copier-coller et la résolution d'opérations posées. Le développement se poursuit avec de nouvelles améliorations à venir. 
         `,
-        stack: 'HTML - CSS - JavaScript',
-        pictures: [JustStream1, JustStream2, JustStream3],
-        github: 'https://github.com/nefalis/p6-JustStreamIt',
+        stack: 'React - Tailwind - Supabase',
+        pictures: [Typing1, Typing2, Typing3, Typing4, Typing5, Typing6],
+        github: 'https://github.com/nefalis/typing_project',
+        link: 'https://typing-project-pi.vercel.app/'
     },
+
     {
         id: 10,
         title: 'Booki',
@@ -275,18 +273,22 @@ const projectData = [
         link: 'https://projet-7-five.vercel.app/'
     },
     {
-        id: 9,
-        title: 'Typing',
+        id: 16,
+        title: 'JustStreamIt',
         category: 'Front-end',
-        description: 'Application crée pour aider un enfant à apprendre à écrire au clavier.',
-        descriptionDetail:`
-        Cette application éducative est née d'un besoin simple : aider un enfant à maîtriser la frappe au clavier. Elle s'est progressivement enrichie de nouvelles fonctionnalités pédagogiques incluant l'apprentissage des tables de multiplication, la pratique du copier-coller et la résolution d'opérations posées. Le développement se poursuit avec de nouvelles améliorations à venir. 
+        description: 'Application web qui répertorie et classe les films',
+        descriptionDetail:`Création d'une application web afin d'aider une association a monter en croissance. 
+        
+        Objectifs :
+        - Interface utilisateur pour une application web qui répertorie et classe les films en fonction de leur note.
+        - L'interface est composé de 5 parties : Meilleur film - Les films les mieux notés - Catégorie 1 - Catégorie 2 - Catégorie libre avec un menu déroulant pour choisir une catégorie. 
+        - La page se connecte à une API afin de récupérer les différentes informations. 
         `,
-        stack: 'React - Tailwind - Supabase',
-        pictures: [Typing1, Typing2, Typing3, Typing4, Typing5, Typing6],
-        github: 'https://github.com/nefalis/typing_project',
-        link: 'https://typing-project-pi.vercel.app/'
+        stack: 'HTML - CSS - JavaScript',
+        pictures: [JustStream1, JustStream2, JustStream3],
+        github: 'https://github.com/nefalis/p6-JustStreamIt',
     }
+
 ];
 
 export default projectData;
