@@ -179,7 +179,7 @@ const projectData = [
         github: 'https://github.com/nefalis/LITReview_P9',
     },
     {
-        id: 9,
+        id: 16,
         title: 'JustStreamIt',
         category: 'Front-end',
         description: 'Application web qui répertorie et classe les films',
@@ -275,7 +275,7 @@ const projectData = [
         link: 'https://projet-7-five.vercel.app/'
     },
     {
-        id: 16,
+        id: 9,
         title: 'Typing',
         category: 'Front-end',
         description: 'Application crée pour aider un enfant à apprendre à écrire au clavier.',
